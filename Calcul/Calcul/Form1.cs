@@ -22,31 +22,8 @@ namespace Calcul
             double firstValue = Double.Parse(textBox1.Text);
             double secondValue = Double.Parse(textBox2.Text);
             double result;
-            switch (((Button)sender).Name)
-            {
-                case "addition":
-                    {
-                        result = firstValue + secondValue;
-                        break;
-                    }
-                case "subtraction":
-                    {
-                        result = firstValue - secondValue;
-                        break;
-                    }
-                case "multiplication":
-                    {
-                        result = firstValue * secondValue;
-                        break;
-                    }
-                case "division":
-                    {
-                        result = firstValue / secondValue;
-                        break;
-                    }
-                default:
-                    throw new Exception("Неизвестная операция");
-            }
+            ITwoArgumentsCalculator calc = TwoArgumentCalculatorFactory.CreateCalculator(((Button)sender).Name);
+            result = calc.Calculate(firstValue, secondValue);
             textBox3.Text = result.ToString();
         }
         
