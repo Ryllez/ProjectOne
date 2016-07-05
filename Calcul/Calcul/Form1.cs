@@ -21,34 +21,34 @@ namespace Calcul
         {
             double firstValue = Double.Parse(textBox1.Text);
             double secondValue = Double.Parse(textBox2.Text);
-            double result = firstValue + secondValue;
+            double result;
+            switch (((Button)sender).Name)
+            {
+                case "addition":
+                    {
+                        result = firstValue + secondValue;
+                        break;
+                    }
+                case "subtraction":
+                    {
+                        result = firstValue - secondValue;
+                        break;
+                    }
+                case "multiplication":
+                    {
+                        result = firstValue * secondValue;
+                        break;
+                    }
+                case "division":
+                    {
+                        result = firstValue / secondValue;
+                        break;
+                    }
+                default:
+                    throw new Exception("Неизвестная операция");
+            }
             textBox3.Text = result.ToString();
         }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            double firstValue = Double.Parse(textBox1.Text);
-            double secondValue = Double.Parse(textBox2.Text);
-            double result = firstValue - secondValue;
-            textBox3.Text = result.ToString();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            double firstValue = Double.Parse(textBox1.Text);
-            double secondValue = Double.Parse(textBox2.Text);
-            double result = firstValue * secondValue;
-            textBox3.Text = result.ToString();
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            double firstValue = Double.Parse(textBox1.Text);
-            double secondValue = Double.Parse(textBox2.Text);
-            double result = firstValue / secondValue;
-            textBox3.Text = result.ToString();
-        }
-
         
     }
 }
