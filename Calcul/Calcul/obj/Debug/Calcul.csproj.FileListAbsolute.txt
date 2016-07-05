@@ -10,3 +10,9 @@ C:\Users\Sergey\Documents\GitBitBitchYO\Calcul\Calcul\Calcul\obj\Debug\Calcul.pd
 C:\Users\Sergey\Documents\Otrabotka\ProjectOne\Calcul\Calcul\bin\Debug\Calcul.exe.config
 C:\Users\Sergey\Documents\Otrabotka\ProjectOne\Calcul\Calcul\obj\Debug\Calcul.exe
 C:\Users\Sergey\Documents\Otrabotka\ProjectOne\Calcul\Calcul\obj\Debug\Calcul.pdb
+C:\Users\Sergey\Documents\Otrabotka\ProjectOne\Calcul\Calcul\bin\Debug\Calcul.exe
+C:\Users\Sergey\Documents\Otrabotka\ProjectOne\Calcul\Calcul\bin\Debug\Calcul.pdb
+C:\Users\Sergey\Documents\Otrabotka\ProjectOne\Calcul\Calcul\obj\Debug\Calcul.csprojResolveAssemblyReference.cache
+C:\Users\Sergey\Documents\Otrabotka\ProjectOne\Calcul\Calcul\obj\Debug\Calcul.Form1.resources
+C:\Users\Sergey\Documents\Otrabotka\ProjectOne\Calcul\Calcul\obj\Debug\Calcul.Properties.Resources.resources
+C:\Users\Sergey\Documents\Otrabotka\ProjectOne\Calcul\Calcul\obj\Debug\Calcul.csproj.GenerateResource.Cache

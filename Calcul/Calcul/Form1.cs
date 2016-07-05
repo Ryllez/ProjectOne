@@ -19,22 +19,36 @@ namespace Calcul
 
         private void button1_Click(object sender, EventArgs e)
         {
-            textBox3.Text = Convert.ToString(Double.Parse(textBox1.Text) + Double.Parse(textBox2.Text));
+            double firstValue = Double.Parse(textBox1.Text);
+            double secondValue = Double.Parse(textBox2.Text);
+            double result = firstValue + secondValue;
+            textBox3.Text = result.ToString();
         }
 
-        private void button3_Click_1(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
-            textBox3.Text = Convert.ToString(Double.Parse(textBox1.Text) * Double.Parse(textBox2.Text));
+            double firstValue = Double.Parse(textBox1.Text);
+            double secondValue = Double.Parse(textBox2.Text);
+            double result = firstValue - secondValue;
+            textBox3.Text = result.ToString();
         }
 
-        private void button2_Click_1(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-            textBox3.Text = Convert.ToString(Double.Parse(textBox1.Text) - Double.Parse(textBox2.Text));
+            double firstValue = Double.Parse(textBox1.Text);
+            double secondValue = Double.Parse(textBox2.Text);
+            double result = firstValue * secondValue;
+            textBox3.Text = result.ToString();
         }
 
-        private void button4_Click_1(object sender, EventArgs e)
+        private void button4_Click(object sender, EventArgs e)
         {
-            textBox3.Text = Convert.ToString(Double.Parse(textBox1.Text) / Double.Parse(textBox2.Text));
+            double firstValue = Double.Parse(textBox1.Text);
+            double secondValue = Double.Parse(textBox2.Text);
+            double result = firstValue / secondValue;
+            textBox3.Text = result.ToString();
         }
+
+        
     }
 }
